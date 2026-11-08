@@ -1,0 +1,15 @@
+﻿/conteudo/
+*.exe
+
+# Local-only Claude session history and settings
+/_claude-sessions/
+**/settings.local.json
+
+# Local environment and generated dependencies/artifacts
+**/.env
+**/.env.*
+!**/.env.example
+**/node_modules/
+**/dist/
+**/coverage/
+*.log
